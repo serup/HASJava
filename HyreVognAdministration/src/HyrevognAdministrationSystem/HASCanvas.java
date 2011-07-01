@@ -137,6 +137,7 @@ public class HASCanvas extends Canvas implements CommandListener {
             circles = v;
             parent = c;
         }
+    
         
         public void run() {
             for (Enumeration e = circles.elements();
