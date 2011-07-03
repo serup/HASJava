@@ -102,6 +102,8 @@ public class HASCanvas extends Canvas implements CommandListener {
             Circle c = (Circle)e.nextElement();
             g.drawArc(c.x, c.y, c.r, c.r, 0, 360);
         }
+        
+        g.drawRect(0, 0, 100, 100);
     }
 
     /**
